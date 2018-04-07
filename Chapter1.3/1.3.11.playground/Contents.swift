@@ -5,19 +5,22 @@
  -5
  */
 
-class Stack<T> {
+struct Stack<T> {
     private var array = Array<T>()
     var count: Int {
         return array.count
     }
 
-    func pop() -> T? {
-        guard count > 0 else { return nil }
+    mutating func pop() -> T? {
         return array.removeLast()
     }
 
-    func push(_ value: T) {
+    mutating func push(_ value: T) {
         array.append(value)
+    }
+
+    func peek() -> T? {
+        return array.last
     }
 }
 
@@ -34,7 +37,7 @@ extension Character {
 }
 
 func evaluatePostfix(_ input: String) -> Int? {
-    let operandStack = Stack<Int>()
+    var operandStack = Stack<Int>()
 
     for char in input {
         if let operand = Int(String(char)) {

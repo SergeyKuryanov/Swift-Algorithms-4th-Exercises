@@ -5,18 +5,22 @@
      ( ( 1 + 2 ) * ( ( 3 - 4 ) * ( 5 - 6 ) )
  */
 
-class Stack<T> {
+struct Stack<T> {
     private var array = Array<T>()
     var count: Int {
         return array.count
     }
 
-    func pop() -> T? {
+    mutating func pop() -> T? {
         return array.removeLast()
     }
 
-    func push(_ value: T) {
+    mutating func push(_ value: T) {
         array.append(value)
+    }
+
+    func peek() -> T? {
+        return array.last
     }
 }
 
@@ -37,8 +41,8 @@ extension Character {
 }
 
 func balance(_ input: String) -> String? {
-    let operatorStack = Stack<Character>()
-    let operandStack = Stack<String>()
+    var operatorStack = Stack<Character>()
+    var operandStack = Stack<String>()
 
     for char in input {
         if char.isOperand {

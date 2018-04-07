@@ -5,18 +5,17 @@
  1 2 3 * + 4 +
  */
 
-class Stack<T> {
+struct Stack<T> {
     private var array = Array<T>()
     var count: Int {
         return array.count
     }
 
-    func pop() -> T? {
-        guard count > 0 else { return nil }
+    mutating func pop() -> T? {
         return array.removeLast()
     }
 
-    func push(_ value: T) {
+    mutating func push(_ value: T) {
         array.append(value)
     }
 
@@ -57,7 +56,7 @@ extension Character {
 }
 
 func infixToPostfix(_ input: String) -> String {
-    let operatorStack = Stack<Character>()
+    var operatorStack = Stack<Character>()
     var output = ""
 
     for char in input {

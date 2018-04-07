@@ -3,23 +3,27 @@
  For example, your program should print true for [()]{}{[()()]()} and false for [(]).
  */
 
-class Stack<T> {
+struct Stack<T> {
     private var array = Array<T>()
     var count: Int {
         return array.count
     }
 
-    func pop() -> T? {
+    mutating func pop() -> T? {
         return array.removeLast()
     }
 
-    func push(_ value: T) {
+    mutating func push(_ value: T) {
         array.append(value)
+    }
+
+    func peek() -> T? {
+        return array.last
     }
 }
 
 func isBalanced(_ input: String) -> Bool {
-    let parenthesisStack = Stack<Character>()
+    var parenthesisStack = Stack<Character>()
 
     for character in input {
         if character.isLeftParenthesis {
