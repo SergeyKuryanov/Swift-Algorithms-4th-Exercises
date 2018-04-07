@@ -12,9 +12,11 @@
 
 **1.3.6** This code fragment reverses the queue
 
-**1.3.7** `peek()` may look like this `return array[size() - 1]`
+**1.3.7** `peek()` may look like this `return array[size() - 1]` or `return array.last`
 
 **1.3.8** Contents `it` size `1`
 
 **1.3.9** [Solution for 1.3.9](1.3.9.md)
+
+**1.3.10** [Solution for 1.3.10](1.3.10.md)
 

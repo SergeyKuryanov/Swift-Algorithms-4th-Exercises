@@ -21,7 +21,7 @@ class Stack<T> {
 }
 
 extension Character {
-    var isDigit: Bool {
+    var isOperand: Bool {
         let digitsSet = Set("1234567890")
         return digitsSet.contains(self)
     }
@@ -41,7 +41,7 @@ func balance(_ input: String) -> String? {
     let operandStack = Stack<String>()
 
     for char in input {
-        if char.isDigit {
+        if char.isOperand {
             operandStack.push(String(char))
         } else if char.isOperator {
             operatorStack.push(char)
