@@ -46,4 +46,30 @@
 
 **1.3.23** When it comes time to update t.next, x.next is no longer the original node following x, but is instead t itself!
 
-**1.3.24** `removeAfter` [impemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List)
+**1.3.24** `removeAfter(_)` [impemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List)
+
+**1.3.25** `insert(_, after:)` [impemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List)
+
+**1.3.26** Iterate over nodes and remove matches. For singly linked list we need to remember previus node and current, for double linked lise we just exchange next and prev poiners:
+
+```swift
+repeat {
+    if node.value == search {
+        node.next.prev = node.prev
+        node.prev.next = node.next
+    }
+
+    node = node.next
+} while node != nil
+```
+
+**1.3.27** Implementation similar to previous, but instead of comparsion we remember max node value.
+
+**1.3.28** Solution is trivial:
+```swift
+func maxNode(_ node: Node<Int>?, currentMax: Int) -> Int {
+    guard let node = node else { return currentMax }
+    let newMax = max(currentMax, node.value)
+    return maxNode(node.next, currentMax: newMax)
+}
+```
