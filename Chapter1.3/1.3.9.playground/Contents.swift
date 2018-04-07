@@ -6,7 +6,7 @@
  */
 
 class Stack<T> {
-    private var array = Array<T?>()
+    private var array = Array<T>()
     var count: Int {
         return array.count
     }
