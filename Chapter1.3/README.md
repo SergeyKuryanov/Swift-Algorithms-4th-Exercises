@@ -1,5 +1,7 @@
 ## Chapter 1.3 Bags, Queues, and Stacks
 
+### Exercises
+
 **1.3.1**  `isFull()` implemetation could check for `N == cap`, where `cap` is internal variable set on `init`
 
 **1.3.2** Output is: `was` `best` `times` `of` `the` `was` `the` `it`
@@ -30,9 +32,7 @@
 
 **1.3.15** Queue iterator [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Queue#array). With iterator we just return k-th string from queue
 
-**1.3.16**
-
-**1.3.17** 
+### Linked-List Exercises
 
 **1.3.18** Deletes from the list the node immediately following x
 
@@ -73,3 +73,9 @@ func maxNode(_ node: Node<Int>?, currentMax: Int) -> Int {
     return maxNode(node.next, currentMax: newMax)
 }
 ```
+
+**1.3.29** Queue [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Queue)
+
+**1.3.30**
+
+**1.3.31** Double Linked List [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List#double-linked-list)
