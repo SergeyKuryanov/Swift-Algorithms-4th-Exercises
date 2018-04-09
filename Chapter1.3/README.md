@@ -79,3 +79,17 @@ func maxNode(_ node: Node<Int>?, currentMax: Int) -> Int {
 **1.3.30**
 
 **1.3.31** Double Linked List [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List#double-linked-list)
+
+### Creative Problems
+
+**1.3.32** Steque [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Steque)
+
+**1.3.33** Deque [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Deque)
+
+**1.3.34** Bag [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Bag)
+
+**1.3.35** Random Queue [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Queue#random-queue)
+
+**1.3.36** Random Queue iterator [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Queue#random-queue)
+
+**1.3.37** [Solution for 1.3.37](1.3.37.md)
