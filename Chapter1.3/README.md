@@ -93,3 +93,7 @@ func maxNode(_ node: Node<Int>?, currentMax: Int) -> Int {
 **1.3.36** Random Queue iterator [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Queue#random-queue)
 
 **1.3.37** [Solution for 1.3.37](1.3.37.md)
+
+**1.3.38** [Solution for 1.3.38](1.3.38.md)
+
+**1.3.39** Ring Buffer [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Ring%20Buffer)
