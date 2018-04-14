@@ -107,3 +107,18 @@ func maxNode(_ node: Node<Int>?, currentMax: Int) -> Int {
 **1.3.43** [Solution for 1.3.43](1.3.43.md)
 
 **1.3.44** [Solution for 1.3.44](1.3.44.md)
+
+**1.3.45** [Solution for 1.3.45](1.3.45.md)
+
+**1.3.46**
+
+**1.3.47** Use linked list to catenate
+
+**1.3.48** One stack push and pop left on deque, another on right
+
+**1.3.49** [Solution for 1.3.49](1.3.49.md)
+
+**1.3.50** 
+
+
+
