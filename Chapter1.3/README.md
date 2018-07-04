@@ -40,7 +40,7 @@
 
 **1.3.20** `remove(at:)` [impemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List)
 
-**1.3.21** Stack iterator [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List). Solution is trivial - iterate and return `true` if string found
+**1.3.21** Linked-List iterator [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List). Solution is trivial - iterate and return `true` if string found
 
 **1.3.22** Inserts node t immediately after node x
 
@@ -76,7 +76,7 @@ func maxNode(_ node: Node<Int>?, currentMax: Int) -> Int {
 
 **1.3.29** Queue [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Queue)
 
-**1.3.30**
+**1.3.30** Reverse function [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List)
 
 **1.3.31** Double Linked List [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Linked%20List#double-linked-list)
 
