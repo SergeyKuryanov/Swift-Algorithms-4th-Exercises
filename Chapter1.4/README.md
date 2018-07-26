@@ -14,9 +14,9 @@ for (index, number) in nums.enumerated().dropFirst() where number == nums[index 
 }
 ```
 
-**1.4.10** [Solution for 1.4.10: Element with the smallest index that matches the search element](1.4.10.md)
+**1.4.10** [Element with the smallest index that matches the search element solution](1.4.10.md)
 
-**1.4.12** [Solution for 1.4.12: Duplicates in sorted arrays](1.4.12.md)
+**1.4.12** [Duplicates in sorted arrays solution](1.4.12.md)
 
 **1.4.14** 4-sum [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Problems/N-Sum)
 
@@ -59,9 +59,9 @@ for number in nums {
 return (currentMin, currentMax)
 ```
 
-**1.4.20** [Solution for 1.4.20: Bitonic search](1.4.20.md)
+**1.4.20** [Bitonic search solution](1.4.20.md)
 
-**1.4.22** [Solution for 1.4.22: Binary search with addition and substraction only, Fibonacci search](1.4.22.md)
+**1.4.22** [Binary search with addition and substraction only, Fibonacci search solution](1.4.22.md)
 
 **1.4.24** Throwing eggs from a building
 
