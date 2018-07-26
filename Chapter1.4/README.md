@@ -71,3 +71,11 @@ Drop an edd from floor equal to degrees of two (1, 2, 4, 8 ...) After egg breaks
 
 We can't user binary search for this. Good sollution is to use first egg to find 10-floor range and second to find exact floor with using linear search. Best solution will be to find range based on number of floors using triangular series formula:  
 `n (n + 1) / 2 = number_of_floors`
+
+**1.4.27** Queue with two stacks
+
+On enque push intems into `in` stack, on deque pop from `out` stack. If `out` stack is empty - push in it items from `in` stack.
+
+**1.4.29** Steque with two stacks
+
+Use queue with two stacks solution, but move items back on `pop`
