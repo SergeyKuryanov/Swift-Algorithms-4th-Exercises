@@ -18,6 +18,8 @@ for (index, number) in nums.enumerated().dropFirst() where number == nums[index 
 
 **1.4.12** [Duplicates in sorted arrays solution](1.4.12.md)
 
+### Creative Problems
+
 **1.4.14** 4-sum [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Problems/N-Sum)
 
 **1.4.15** 3-sum [implemented here](https://github.com/SergeyKuryanov/Swift-Data-Structures-and-Algorithms/tree/master/Problems/N-Sum)
