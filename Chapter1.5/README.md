@@ -1,4 +1,4 @@
-## Chapter 1.4 Analysis of Algorithms
+## Chapter 1.5 Case Study: Union-Find
 
 ### Exercises
 
